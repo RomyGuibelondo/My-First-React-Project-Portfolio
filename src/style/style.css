@@ -1,0 +1,51 @@
+
+@import url(home.css);
+@import url(portfolio.css);
+@import url(about.css);
+@import url(contact.css);
+@import url(lighttheme.css);
+
+:root{
+    --clr-dark: #19142A;
+    --clr-border: #504672;
+    --clr-primary: #fff;
+    --foreground: var(--clr-primary);
+    --background: var(--clr-dark);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.app{
+    color: var(--foreground);
+    background-color: var(--background);
+    padding: 11vh 10vh 0 10vh;
+}
+#container1{
+    
+    min-width: 700px;
+}
+.section{
+    height: 100vh;
+    /* border: 1px solid green; */
+    border-bottom: #504672 5px solid;
+    border: #504672 5px solid;
+}
+.section5{
+    height: 100vh;
+    border-left: #504672 5px solid;
+    border-right: #504672 5px solid;
+}
+.section4{
+    height: 100%;
+    border-left: #504672 5px solid;
+    border-right: #504672 5px solid;
+}
+    
+#section1{
+    padding: 0vh 10vh 0 12vh;
+}
